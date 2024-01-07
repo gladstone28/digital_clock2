@@ -8,8 +8,18 @@ body {
 }
 
 .clock {
-    font-size: 78px;
+    width: 400px;
+    /* Adjust as needed */
+    height: 400px;
+    /* Adjust as needed */
+    background-image: url('clock.png');
+    /* Replace with the path to the clock image */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    /* Adjust as needed */
     font-family: 'Arial Black', sans-serif;
-    font-weight: bold;
     color: white;
 }
