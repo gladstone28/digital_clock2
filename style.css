@@ -5,15 +5,17 @@ body {
     height: 100vh;
     background-color: steelblue;
     margin: 0;
+    overflow: hidden;
+    /* Ensures no scrolling */
 }
 
 .clock {
     width: 900px;
-    /* Adjust based on image size */
+    /* Adjust based on your preference */
     height: 900px;
-    /* Adjust based on image size */
+    /* Adjust based on your preference */
     background-image: url('kguc-logo-new.jpg');
-    /* Ensure correct path */
+    /* Ensure the correct path */
     background-size: contain;
     /* This will ensure the entire image is shown */
     background-repeat: no-repeat;
