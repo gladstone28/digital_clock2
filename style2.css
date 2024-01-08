@@ -15,7 +15,7 @@ body {
 
 .church-name,
 .church-address {
-    color: white;
+    color: maroon;
     /* Or any color you prefer */
     font-family: 'Arial', sans-serif;
     text-align: center;

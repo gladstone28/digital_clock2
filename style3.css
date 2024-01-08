@@ -16,7 +16,7 @@ body {
 .church-name,
 .church-address,
 .prayer-line {
-    color: white;
+    color: red;
     /* Or any color you prefer */
     font-family: 'Arial', sans-serif;
     text-align: center;
