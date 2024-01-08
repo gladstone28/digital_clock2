@@ -1,4 +1,8 @@
-This is the digital clock using JavaScript, HTML and CSS that was done previously in Python. Please see notes from chatGPT below:
+link to original video is below:
+https://www.youtube.com/watch?v=kY5HtrkjSj0&t=293s
+
+
+This is the new digital clock using JavaScript, HTML and CSS that was done previously in Python. Please see notes from chatGPT below:
 
 
 In this setup:
