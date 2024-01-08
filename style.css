@@ -15,12 +15,14 @@ body {
     max-width: 900px;
     /* Maximum size */
     height: 80vw;
-    /* Responsive height */
+    /* Responsive height based on width */
     max-height: 900px;
     /* Maximum size */
     background-image: url('kguc-logo-new.jpg');
     /* Ensure the correct path */
     background-size: contain;
+    background-position: center;
+    /* Centers the background image */
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -38,5 +40,17 @@ body {
     .clock {
         font-size: 8vw;
         /* Larger font size for smaller screens */
+    }
+}
+
+
+/* Additional adjustments for very small screens */
+
+@media (max-width: 400px) {
+    .clock {
+        font-size: 12vw;
+        /* Even larger font size for very small screens */
+        height: 60vw;
+        /* Adjust height to maintain aspect ratio */
     }
 }
