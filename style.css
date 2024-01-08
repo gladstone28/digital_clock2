@@ -8,11 +8,11 @@ body {
 }
 
 .clock {
-    width: 400px;
+    width: 600px;
     /* Adjust as needed */
-    height: 400px;
+    height: 600px;
     /* Adjust as needed */
-    background-image: url('clock.png');
+    background-image: url('kguc-logo-new.jpeg');
     /* Replace with the path to the clock image */
     background-size: cover;
     display: flex;
@@ -21,5 +21,5 @@ body {
     font-size: 40px;
     /* Adjust as needed */
     font-family: 'Arial Black', sans-serif;
-    color: rgb(206, 59, 59);
+    color: rgb(230, 19, 61);
 }
