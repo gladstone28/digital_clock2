@@ -8,13 +8,16 @@ body {
 }
 
 .clock {
-    width: 600px;
-    /* Adjust as needed */
-    height: 600px;
-    /* Adjust as needed */
+    width: 900px;
+    /* Adjust based on image size */
+    height: 900px;
+    /* Adjust based on image size */
     background-image: url('kguc-logo-new.jpg');
-    /* Replace with the path to the clock image */
-    background-size: cover;
+    /* Ensure correct path */
+    background-size: contain;
+    /* This will ensure the entire image is shown */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
     display: flex;
     justify-content: center;
     align-items: center;
