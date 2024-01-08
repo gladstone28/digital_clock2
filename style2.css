@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: steelblue;
+    margin: 0;
+    overflow: hidden;
+}
+
+.clock {
+    /* ... existing styles ... */
+}
+
+.church-name,
+.church-address {
+    color: white;
+    /* Or any color you prefer */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.church-name {
+    font-size: 24px;
+    /* Adjust size as needed */
+    margin-top: 20px;
+    /* Space above the church name */
+}
+
+.church-address {
+    font-size: 18px;
+    /* Adjust size as needed */
+    margin-top: 5px;
+    /* Space above the address */
+}
+
+
+/* ... existing media queries ... */
