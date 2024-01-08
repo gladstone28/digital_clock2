@@ -10,21 +10,33 @@ body {
 }
 
 .clock {
-    width: 900px;
-    /* Adjust based on your preference */
-    height: 900px;
-    /* Adjust based on your preference */
+    width: 80%;
+    /* Responsive width */
+    max-width: 900px;
+    /* Maximum size */
+    height: 80vw;
+    /* Responsive height */
+    max-height: 900px;
+    /* Maximum size */
     background-image: url('kguc-logo-new.jpg');
     /* Ensure the correct path */
     background-size: contain;
-    /* This will ensure the entire image is shown */
     background-repeat: no-repeat;
-    /* Prevents the image from repeating */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
-    /* Adjust as needed */
+    font-size: 5vw;
+    /* Responsive font size */
     font-family: 'Arial Black', sans-serif;
     color: rgb(230, 19, 61);
+}
+
+
+/* Adjustments for smaller screens */
+
+@media (max-width: 600px) {
+    .clock {
+        font-size: 8vw;
+        /* Larger font size for smaller screens */
+    }
 }
